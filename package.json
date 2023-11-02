@@ -9,6 +9,10 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "build": "cd client && npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lizf57/book-scout.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -17,6 +21,8 @@
   },
   "dependencies": {
     "@apollo/server": "^4.9.5",
-    "graphql": "^16.8.1"
+    "express": "^4.18.2",
+    "graphql": "^16.8.1",
+    "mongoose": "^8.0.0"
   }
 }
