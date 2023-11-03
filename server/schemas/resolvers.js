@@ -32,8 +32,8 @@ const resolvers = {
                     extensions: {
                         code: BAD_USER_INPUT,
                     },
-                }),
-            },
+                })
+            }
         },
         addUser: async (parent, { userInput }, contextValue, info) => {
             return await User.create(userInput)
